@@ -25,6 +25,16 @@
 }
 .videoConf{
     position: fixed;
-    bottom: 25px;
-    right: 220px;
+    bottom: 19px;
+    right: 205px;
+    color: white;
+    background: #007bff;
+    border-radius: 100%;
+    padding: 8px;
+}
+.videoConf a{
+    color: white;
+}
+.videoConf a:hover{
+    color: rgb(221, 221, 221);
 }
