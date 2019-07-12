@@ -14,11 +14,10 @@
     color: rgb(132, 132, 219);
 }
 .logo-fix{
-    padding-left: 60px;
+    padding-left: 0px;
     position: absolute; 
-    width: 140px; 
-    height: 60px; 
-    top: 2px;
+    width: 20%; 
+    top: 10px;
 }
 .row{
     text-align: justify;
