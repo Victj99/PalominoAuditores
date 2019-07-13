@@ -21,6 +21,9 @@
 .row{
     text-align: justify;
 }
+.title{
+    text-align: left;
+}
 .videoConf{
     position: fixed;
     bottom: 19px;
