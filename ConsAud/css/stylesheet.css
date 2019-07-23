@@ -42,4 +42,14 @@
 .paddsection {
     padding-top: 90px;
     padding-bottom: 90px;
-  }
+}
+.languaje{
+    float: left;
+    position: relative;
+    text-align: center;
+    left: -80px;
+    bottom: 30px;
+}
+.languaje a{
+    color: white;
+}
