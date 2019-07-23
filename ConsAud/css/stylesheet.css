@@ -39,3 +39,7 @@
 .videoConf a:hover{
     color: rgb(221, 221, 221);
 }
+.paddsection {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }

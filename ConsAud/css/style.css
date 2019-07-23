@@ -919,7 +919,128 @@ h6 {
 #testimonials .owl-dot.active {
   background-color: #007bff;
 }
+/* Clientes Section
+--------------------------------*/
 
+#clients {
+  background: #fff;
+  padding: 60px 0;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#clients .member {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#clients .member .member-info {
+  opacity: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+
+#clients .member .member-info-content {
+  margin-top: 50px;
+  transition: margin 0.2s;
+}
+
+#clients .member:hover .member-info {
+  background: rgba(0, 62, 128, 0.7);
+  opacity: 1;
+  transition: 0.4s;
+}
+
+#clients .member:hover .member-info-content {
+  margin-top: 0;
+  transition: margin 0.4s;
+}
+
+#clients .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#clients .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+#clients .member .social {
+  margin-top: 15px;
+}
+
+#clients .member .social a {
+  transition: none;
+  color: #fff;
+}
+
+#clients .member .social a:hover {
+  color: #007bff;
+}
+
+#clients .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Aout-us
+/*-----------------------------------------------------------------------------------*/
+
+#Me {
+  width: 100%;
+  height: auto;
+  background: #f7f7f7;
+  padding-top: 190px;
+}
+
+#Me .div-img-bg {
+  padding-bottom: 30px;
+  border: 20px solid #007bff96;
+}
+
+#Me .div-img-bg .about-img img {
+  width: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: -60px;
+  margin-left: 40px;
+  height: 400px;
+  object-fit: cover;
+}
+
+#Me .about-descr .p-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  text-align: left;
+}
+
+#about .about-descr .separator {
+  max-width: 80%;
+  margin-bottom: 0;
+  text-align: left;
+}
 /* Team Section
 --------------------------------*/
 
@@ -1007,21 +1128,21 @@ h6 {
   margin: 0 2px;
 }
 
-/* Clients Section
+/* Interest Section
 --------------------------------*/
 
-#clients {
+#interest {
   padding: 60px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#clients .clients-wrap {
+#interest .interest-wrap {
   border-top: 1px solid #d6eaff;
   border-left: 1px solid #d6eaff;
   margin-bottom: 30px;
 }
 
-#clients .client-logo {
+#interest .interest-logo {
   padding: 64px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1042,12 +1163,12 @@ h6 {
   height: 160px;
 }
 
-#clients .client-logo:hover img {
+#interest .interest-logo:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-#clients img {
+#interest img {
   transition: all 0.4s ease-in-out;
 }
 
