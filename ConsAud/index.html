@@ -4,18 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Inicio</title>
-    <script type="text/javascript" src="js/gifffer.min.js"></script>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
-    <h1>Hola</h1>
-    <img data-gifffer="img/Logo-Main.gif" />
-
-    <script>
-        window.onload = function () {
-            Gifffer();
+    <style>
+        html,
+        body {
+            height: 100%;
         }
-    </script>
+    </style>
+    <div class="container-fluid d-flex h-100">
+        <div class="row align-self-center justify-content-md-center">
+
+            <div class="col-xl-4">
+                <img src="img/logo-main.gif" alt="No Image" class="img-fluid">
+            </div>
+            <div class="w-100"></div>
+            <div class="col-2 col-lg-1">
+                <a href="esp.html"><img src="img/main/spain-flag-animation.gif" alt="No Image" class="img-fluid"></a>
+            </div>
+            <div class="col-2 col-lg-1">
+                <a href="eng.html"><img src="img/main/united-states-flag-animation.gif" alt="No Image"
+                        class="img-fluid"></a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
