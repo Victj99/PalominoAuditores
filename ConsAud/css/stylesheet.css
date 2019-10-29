@@ -1,30 +1,36 @@
-.facebookButtom{
+.facebookButtom {
     position: fixed;
     top: 80px;
     right: 0px;
 }
-.cont{
+
+.cont {
     max-width: 70%;
 }
-.newsText{
+
+.newsText {
     color: white;
     text-shadow: 3px 3px 2px black;
-}.newsText:hover{
+}
+
+.newsText:hover {
     color: rgb(132, 132, 219);
 }
-.logo-fix{
-    padding-left: 0px;
-    position: absolute; 
-    width: 20%; 
-    top: 10px;
+
+.logo-fix {
+    max-width: 350px;
+    min-width: 250px;
 }
-.row{
+
+.row {
     text-align: justify;
 }
-.title{
+
+.title {
     text-align: left;
 }
-.videoConf{
+
+.videoConf {
     position: fixed;
     bottom: 19px;
     right: 205px;
@@ -33,23 +39,28 @@
     border-radius: 100%;
     padding: 8px;
 }
-.videoConf a{
+
+.videoConf a {
     color: white;
 }
-.videoConf a:hover{
+
+.videoConf a:hover {
     color: rgb(221, 221, 221);
 }
+
 .paddsection {
     padding-top: 90px;
     padding-bottom: 90px;
 }
-.languaje{
+
+.languaje {
     float: left;
     position: relative;
     text-align: center;
     left: -80px;
     bottom: 30px;
 }
-.languaje a{
+
+.languaje a {
     color: white;
 }
