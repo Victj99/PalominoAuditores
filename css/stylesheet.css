@@ -1,3 +1,9 @@
+#headingOne{
+    padding-bottom: 10px;
+}
+#headingTwo button{
+    width: 60px;
+}
 .rightbutton {
     position: fixed;
     top: 80px;
